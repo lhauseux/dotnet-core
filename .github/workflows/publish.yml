@@ -30,3 +30,19 @@ jobs:
 
             - name: Publish
               run: dotnet nuget push ./Core/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_TOKEN }} --source "github"
+
+            - name: Bump version
+              uses: KageKirin/bump-csproj-version@v0
+              id: bump_version
+              with:
+                  file: Core/Core.csproj
+                  patch: true
+
+            - name: Commit version
+              run: |
+                  echo "Bump version to ${{ steps.bump_version.outputs.version }}"
+                  git config --local user.email github-actions
+                  git config --local user.name github-actions
+                  git add Core/Core.csproj
+                  git commit -m "Bump version to ${{ steps.bump_version.outputs.version }}"
+                  git push
