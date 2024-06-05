@@ -9,7 +9,6 @@
         <PackageId>hauseux-technologies.core</PackageId>
         <Company>Hauseux Technologies</Company>
         <PackageDescription>Core package for .NET Api using DDD</PackageDescription>
-        <RepositoryUrl>https://github.com/hauseux-technologies/dotnet-core</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
