@@ -15,10 +15,6 @@ jobs:
               with:
                   dotnet-version: 8.x
 
-            - name: Add Nuget source
-              run: |
-                  dotnet nuget add source --username lhauseux --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/lhauseux/index.json"
-
             - name: Install dependencies
               run: dotnet restore
 
@@ -27,6 +23,10 @@ jobs:
 
             - name: Pack
               run: dotnet pack --no-build --configuration Release
+
+            - name: Add Nuget source
+              run: |
+                  dotnet nuget add source --username lhauseux --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/lhauseux/index.json"
 
             - name: Publish
               run: dotnet nuget push ./Core/bin/Release/*.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "github"
