@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>HT</RootNamespace>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <PackageId>ht.core</PackageId>
         <Version>1.0.0</Version>
         <Authors>Loïc Hauseux</Authors>
@@ -15,7 +15,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="12.2.0" />
+        <PackageReference Include="MediatR" Version="12.2.0"/>
     </ItemGroup>
 
 </Project>
