@@ -29,7 +29,7 @@ jobs:
 
             - name: Add Nuget source
               run: |
-                  dotnet nuget add source --username ${{ secrets.NUGET_USERNAME }} --password ${{ secrets.NUGET_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/hauseux-technologies/index.json"
+                  dotnet nuget add source --username ${{ secrets.NUGET_USERNAME }} --password ${{ secrets.NUGET_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
 
             - name: Publish
               run: dotnet nuget push ./Core/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_TOKEN }} --source "github"
