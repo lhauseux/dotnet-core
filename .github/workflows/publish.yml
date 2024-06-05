@@ -1,11 +1,6 @@
 name: Publish
 
-on:
-    workflow_dispatch:
-    workflow_run:
-        workflows: ["Commit Build"]
-        types:
-            - completed
+on: workflow_dispatch
 
 jobs:
     build:
