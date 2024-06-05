@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>HT</RootNamespace>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <PackageId>hauseux-technologies.core</PackageId>
         <Company>Hauseux Technologies</Company>
         <PackageDescription>Core package for .NET Api using DDD</PackageDescription>
@@ -13,7 +13,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="12.2.0" />
+        <PackageReference Include="MediatR" Version="12.2.0"/>
     </ItemGroup>
 
 </Project>
