@@ -9,10 +9,15 @@
         <PackageId>hauseux-technologies.core</PackageId>
         <Company>Hauseux Technologies</Company>
         <PackageDescription>Core package for .NET Api using DDD</PackageDescription>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="*"/>
+        <None Include="docs/README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="*" />
     </ItemGroup>
 
 </Project>
