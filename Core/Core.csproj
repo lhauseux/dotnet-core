@@ -10,14 +10,15 @@
         <Company>Hauseux Technologies</Company>
         <PackageDescription>Core package for .NET Api using DDD</PackageDescription>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/hauseux-technologies/dotnet-core</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="docs/README.md" Pack="true" PackagePath="/"/>
+        <None Include="docs/README.md" Pack="true" PackagePath="/" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="*"/>
+        <PackageReference Include="MediatR" Version="*" />
     </ItemGroup>
 
 </Project>
