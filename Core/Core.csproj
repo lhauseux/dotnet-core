@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>HT.Core</RootNamespace>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <PackageId>hauseux-technologies.core</PackageId>
         <Company>Hauseux Technologies</Company>
         <PackageDescription>Core package for .NET Api using DDD</PackageDescription>
@@ -14,11 +14,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="docs/README.md" Pack="true" PackagePath="/" />
+        <None Include="docs/README.md" Pack="true" PackagePath="/"/>
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="*" />
+        <PackageReference Include="MediatR" Version="*"/>
     </ItemGroup>
 
 </Project>
