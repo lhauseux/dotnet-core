@@ -1,7 +1,7 @@
 
-using HT.Core.Errors;
+using LH.Core.Errors;
 
-namespace HT.Core.UnitTests.Fakes.Errors;
+namespace LH.Core.UnitTests.Fakes.Errors;
 
 public static class FakeError
 {

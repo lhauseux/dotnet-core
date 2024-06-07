@@ -4,21 +4,21 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>HT.Core</RootNamespace>
+        <RootNamespace>LH.Core</RootNamespace>
         <Version>1.0.1</Version>
-        <PackageId>hauseux-technologies.core</PackageId>
-        <Company>Hauseux Technologies</Company>
+        <PackageId>lhauseux.core</PackageId>
+        <Author>Loïc Hauseux</Author>
         <PackageDescription>Core package for .NET Api using DDD</PackageDescription>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-        <RepositoryUrl>https://github.com/hauseux-technologies/dotnet-core</RepositoryUrl>
+        <RepositoryUrl>https://github.com/lhauseux/dotnet-core</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="docs/README.md" Pack="true" PackagePath="/"/>
+        <None Include="docs/README.md" Pack="true" PackagePath="/" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="*"/>
+        <PackageReference Include="MediatR" Version="*" />
     </ItemGroup>
 
 </Project>

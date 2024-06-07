@@ -1,6 +1,6 @@
-using HT.Core.Events;
+using LH.Core.Events;
 
-namespace HT.Core;
+namespace LH.Core;
 
 public abstract class AggregateRoot : EntityBase
 {

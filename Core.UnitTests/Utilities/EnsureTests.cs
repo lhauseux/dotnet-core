@@ -1,6 +1,6 @@
-using HT.Core.Utilities;
+using LH.Core.Utilities;
 
-namespace HT.Core.UnitTests.Utilities;
+namespace LH.Core.UnitTests.Utilities;
 
 public class EnsureTests
 {

@@ -1,6 +1,6 @@
-using HT.Core.Errors;
+using LH.Core.Errors;
 
-namespace HT.Core.Results;
+namespace LH.Core.Results;
 
 public static class ResultExtensions
 {

@@ -1,6 +1,6 @@
-using HT.Core.Errors;
+using LH.Core.Errors;
 
-namespace HT.Core.Exceptions;
+namespace LH.Core.Exceptions;
 
 public class DomainException : Exception
 {

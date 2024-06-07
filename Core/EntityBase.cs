@@ -1,6 +1,6 @@
-using HT.Core.Utilities;
+using LH.Core.Utilities;
 
-namespace HT.Core;
+namespace LH.Core;
 
 public abstract class EntityBase : IEquatable<EntityBase>
 {

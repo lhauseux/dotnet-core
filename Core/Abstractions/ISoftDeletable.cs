@@ -1,4 +1,4 @@
-namespace HT.Core.Abstractions;
+namespace LH.Core.Abstractions;
 
 public interface ISoftDeletable
 {

@@ -1,4 +1,4 @@
-﻿namespace HT.Core;
+﻿namespace LH.Core;
 
 public abstract class ValueObject : IEquatable<ValueObject>
 {

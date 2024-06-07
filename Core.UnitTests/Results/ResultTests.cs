@@ -1,8 +1,8 @@
-using HT.Core.Errors;
-using HT.Core.Results;
-using HT.Core.UnitTests.Fakes.Errors;
+using LH.Core.Errors;
+using LH.Core.Results;
+using LH.Core.UnitTests.Fakes.Errors;
 
-namespace HT.Core.UnitTests.Results;
+namespace LH.Core.UnitTests.Results;
 
 public class UnitTest1
 {

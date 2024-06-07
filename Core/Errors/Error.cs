@@ -1,5 +1,5 @@
 
-namespace HT.Core.Errors;
+namespace LH.Core.Errors;
 
 public class Error : ValueObject
 {

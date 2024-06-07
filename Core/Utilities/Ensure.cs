@@ -1,4 +1,4 @@
-namespace HT.Core.Utilities;
+namespace LH.Core.Utilities;
 
 public static class Ensure
 {

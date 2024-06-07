@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace HT.Core.Events;
+namespace LH.Core.Events;
 
 public interface IDomainEvent : INotification
 {

@@ -1,7 +1,7 @@
 using System.Net.Http.Headers;
-using HT.Core.Errors;
+using LH.Core.Errors;
 
-namespace HT.Core.Results;
+namespace LH.Core.Results;
 
 public class Result
 {
