@@ -14,11 +14,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="docs/README.md" Pack="true" PackagePath="/"/>
+        <None Include="docs/README.md" Pack="true" PackagePath="/" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="MediatR" Version="*"/>
+        <PackageReference Include="lhauseux.results" Version="*" />
+        <PackageReference Include="MediatR" Version="*" />
     </ItemGroup>
 
 </Project>

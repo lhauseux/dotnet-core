@@ -1,4 +1,4 @@
-using LH.Core.Errors;
+using LH.Results.Errors;
 
 namespace LH.Core.Exceptions;
 
